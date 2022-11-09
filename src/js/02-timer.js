@@ -48,7 +48,7 @@ function onStartBtnClick(startDate) {
         }
 
         const currentDate = Date.now();
-        deltaTime = startDate - currentDate;
+        const deltaTime = startDate - currentDate;
         const time = convertMs(deltaTime);
         updateClockFace(time);
       }, 1000);
